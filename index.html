@@ -1,0 +1,47 @@
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<title>Kalkulator BMI</title>
+</head>
+<body>
+
+<p class="powitanie"> <b>Witam w kalkulatorze BMI</b>!</p>
+<p class="instrukcja">instrukcja dotycząca kalkulatora bmi </p>
+
+
+           <p class="opis">
+            W pierwsze pole należy wpisać swoją wage w jednostce kg.
+            <br>
+            <br>
+            w drugim polu należy wpisać swój wzrost w jednostce cm.<br><br>
+
+            Aby zobaczyć wynik swojego BMI należy przycisnąć przycisk "oblicz".<br> 
+            Aby wyczyścić formularz należy przycisnąć pole z napisem "wyczyść"
+            </p>
+
+
+        <div id="arg_wys">
+        <form action="biblioteka.php" method="post"> 
+             <a> Podaj swoją wage (kg)</a>
+        <input type="text" name="waga" ></br><br>
+            <a>Podaj swój wzrost (cm)</a>
+        <input type="text" name="wzrost" ><br>
+        <p class="plec_w">Wybierz płeć</p>
+        kobieta:<input type="radio" name="plec" value="m">
+        mężczyzna:<input type="radio" name="plec" value="k"><br><br>
+        <input type="submit" value="oblicz"> &nbsp; &nbsp; &nbsp; &nbsp;
+        <input type="reset" value="wyczyść">
+</form>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
